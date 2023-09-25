@@ -29,7 +29,7 @@ export default function App() {
     <ThemeProvider theme={theme}>
       <StatusBar style="light" backgroundColor="#fafafa" translucent />
       <AuthProvider>
-        {/* <View style={styles.container}> */}
+        {/* <View style={style.container}> */}
         <Routes />
         {/* </View> */}
       </AuthProvider>
@@ -37,11 +37,12 @@ export default function App() {
   );
 }
 
-const styles = StyleSheet.create({
+const style = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#fff",
+    backgroundColor: "red",
     alignItems: "center",
     justifyContent: "center",
+    zIndex:-99,
   },
 });

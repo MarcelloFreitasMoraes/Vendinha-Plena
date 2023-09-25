@@ -1,7 +1,7 @@
 // import { createNativeStackNavigator } from "@react-navigation/native-stack";
 
-// import  LoginScreen  from "../../Login";
-// // import { PreloadScreen } from "../../screens/PreLoad";
+// import Login from "../../Login";
+// import { PreloadScreen } from "../../screens/PreLoad";
 
 // import { INavigationAuthStackProps } from "./types";
 // import { Home } from "../../Home";
@@ -12,10 +12,10 @@
 
 //   return (
 //     <Navigator
-//      initialRouteName="LoginScreen"
+//      initialRouteName="Login"
 //       screenOptions={{ headerShown: false }}
 //     >
-//       <Screen name="LoginScreen" component={LoginScreen} />
+//       <Screen name="Login" component={Login} />
 //        {/* <Screen name="Home" component={Home} />  */}
 //     </Navigator>
 //   );

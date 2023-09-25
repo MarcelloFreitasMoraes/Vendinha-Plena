@@ -1,7 +1,7 @@
 import { NativeStackScreenProps } from "@react-navigation/native";
 
 export type INavigationAuthStackProps = {
-  LoginScreen: undefined;
+  Login: undefined;
   Home: undefined;
 };
 
